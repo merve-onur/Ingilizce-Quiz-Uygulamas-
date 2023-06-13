@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tahta"
+    tools:context=".soruekrani9">
+
+    <Button
+        android:id="@+id/what"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="#FFC107"
+        android:text="what"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/who"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <Button
+        android:id="@+id/why"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="55dp"
+        android:backgroundTint="#FFC107"
+        android:text="why"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/what"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/how"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/who"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="#FFC107"
+        android:text="who"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="__________ often do you go to the cinema?"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/how"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#FFC107"
+        android:text="how"
+        app:layout_constraintEnd_toStartOf="@+id/who"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+</androidx.constraintlayout.widget.ConstraintLayout>
